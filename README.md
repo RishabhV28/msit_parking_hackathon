@@ -10,7 +10,7 @@
 <br>
 </p>
 <h2>📜 INTRODUCTION</h2>
- <p align="justify">Nowadays, car has become a necessity; it is no more a luxury especially for the working people. People even purchase car on installments. When talking about metropolitan, then traffic jams have become quite common recently during large number of vehicles. Also, we cannot deny the existence of the cars in our daily life. Whenever we go out by car, we face problems to find an available parking space.  When driver enters a certain parking lot, the first thing that he does is to look for some sign which tells whether the parking lot is fully occupied, partly occupied or vacant. . He also does not know how many parking slots are there and where to find a parking division for his car. Some of the parking divisions may remain unoccupied even when the total occupancy is high. This causes ineffective use of parking divisions as well as traffics jams around the entrance of parking lot. Therefore, by offering drivers with relevant information about the parking lot while entering the parking lot becomes an important issue.  When driver enters a certain parking lot, the driver takes a long time just to find an available parking space. Counting Available Parking Space using Image Processing helps to solve the problem that the driver faces at low cost. The system uses image processing to detect the existence of the car and also provides information such as number of available parking space. The system captures image using CCTV cameras and processes the image to count the available parking space. The system basically is implement  to plan, analyze, design, development and testing. The development of this system will use techniques of image processing that will be implemented in each phase of the methodology. This system gives information about the number of available parking space. It will provide benefit to all the drivers when they enter the parking lot. The system uses image processing, since the whole area in the parking lot can be observed with relatively few cameras. Other than that, the system is compact and the cost is not high. The image of a parking lot is taken by a surveillance camera set at some height in the parking lot.  MATLAB is used as software platform in this project.
+ <p align="justify">Nowadays, car has become a necessity; it is no more a luxury especially for the working people. People even purchase car on installments. When talking about metropolitan, then traffic jams have become quite common recently during large number of vehicles. Also, we cannot deny the existence of the cars in our daily life. Whenever we go out by car, we face problems to find an available parking space.  When driver enters a certain parking lot, the first thing that he does is to look for some sign which tells whether the parking lot is fully occupied, partly occupied or vacant. . He also does not know how many parking slots are there and where to find a parking division for his car. Some of the parking divisions may remain unoccupied even when the total occupancy is high. This causes ineffective use of parking divisions as well as traffics jams around the entrance of parking lot. Therefore, by offering drivers with relevant information about the parking lot while entering the parking lot becomes an important issue.  When driver enters a certain parking lot, the driver takes a long time just to find an available parking space. Counting Available Parking Space using Image Processing helps to solve the problem that the driver faces at low cost. The system uses image processing to detect the existence of the car and also provides information such as number of available parking space. The system captures image using CCTV cameras and processes the image to count the available parking space. The system basically is implement  to plan, analyze, design, development and testing. The development of this system will use techniques of image processing that will be implemented in each phase of the methodology. This system gives information about the number of available parking space. It will provide benefit to all the drivers when they enter the parking lot. The system uses image processing, since the whole area in the parking lot can be observed with relatively few cameras. Other than that, the system is compact and the cost is not high. The image of a parking lot is taken by a surveillance camera set at some height in the parking lot.  pytorch using yolo is used as software platform in this project.
 </p>
 <br>
 <h2>📃 PROPOSED MODEL AND METHODLOGY </h2>
@@ -29,7 +29,7 @@
 <h4>2) Image Acquisition</h4>
 <p align="justify"><img src="https://raw.githubusercontent.com/abhishekapk/SMART-PARKING-SYSTEM/master/Images/image3.jpg" alt="Parking Image" width="250px" height="100px" align="right">In this step, the picture of parking space containing cars is taken with the help of a high-definition camera. <br>
 The image frame containing six lane image is divided lane-wise.<br>
-The image data is then supplied to the MATLAB software for further processing.
+The image data is then supplied to the pytorch using yolo software for further processing.
 </p>
 <br>
 <h4>3) Thresholding of Image</h4>
@@ -48,7 +48,7 @@ The gray scale image of the parking space with cars. From the resulting gray-sca
   </a></p>
 <br>
 <h4>5) Image Detection</h4>
-<p align="justify">In order to detect the cars, blob analysis is done using predefined functions in MATLAB and the number of cars is counted.
+<p align="justify">In order to detect the cars, blob analysis is done using predefined functions in pytorch using yolo and the number of cars is counted.
 </p>
 <br>
 <p align="center">
@@ -76,16 +76,16 @@ The gray scale image of the parking space with cars. From the resulting gray-sca
 <br>
 <h2>📑 CONCLUSION</h2>
 <p align="justify">There are many automated car parking systems already available using technologies such as GSM, wireless transmitter, etc. This project was especially chosen for the purpose of learning more about image processing, as it is one of the most relevant technologies of our times and used in numerous other applications.
-The parking space detection system based on image processing in MATLAB was designed and tested. It is possible to manage large area by just using several CCTV. It is consistent in detecting incoming cars because it uses actual car images. It is cheap and easy-installed because of the simple equipment. Drivers can get useful real-time parking lot information from this system by the guidance information display. Future researchers can focus on allocation  specific location  to customers  already  registered from online parking management system.
+The parking space detection system based on image processing in pytorch using yolo was designed and tested. It is possible to manage large area by just using several CCTV. It is consistent in detecting incoming cars because it uses actual car images. It is cheap and easy-installed because of the simple equipment. Drivers can get useful real-time parking lot information from this system by the guidance information display. Future researchers can focus on allocation  specific location  to customers  already  registered from online parking management system.
   </p>
 <br>
 <h2>📸 SCREENSHOT</h2>
-<p align="justify">Command window of MATLAB after the execution of code.
+<p align="justify">Command window of pytorch using yolo after the execution of code.
   </p>
 <br>
 <p align="center">
   <a href="">
-    <img src="https://raw.githubusercontent.com/abhishekapk/SMART-PARKING-SYSTEM/master/Images/image7.jpg" alt="MATLAB output" width="auto" height="auto">
+    <img src="https://raw.githubusercontent.com/abhishekapk/SMART-PARKING-SYSTEM/master/Images/image7.jpg" alt="pytorch using yolo output" width="auto" height="auto">
   </a></p>
 <br>
 <p align="justify">Two output figures are there after the execution of code.<br>
